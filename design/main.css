@@ -5,18 +5,12 @@
     --orange: #f99103;
 }
 
-
-* {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    
-}
-
-
 header {
     background-color: #313131;
-    text-align : center
-
+    text-align : center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+
 body {
     margin: 0;
 }
@@ -43,7 +37,7 @@ a:hover {
     color: var(--orange);
 }
 
-li {
+#wpp li {
 	list-style-type: none;
     padding: 20px;
     font-size: 3.8em;
@@ -64,6 +58,7 @@ li {
     position: relative;
     top: 100px;
     left: 220px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .navaccueil {
@@ -78,8 +73,9 @@ li {
 
 nav{
 	box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0.5);
-    font-size: 12px;
-    padding-bottom: 5px;
+    font-size: 2.2em;
+    padding-bottom: 2px;
+    font-weight: bold;
 }
 
 .navheader li {
@@ -97,7 +93,7 @@ nav{
 
 h2 {
     margin: 0;
-    font-size: 4em;
+    font-size: 3.3em;
     color: var(--blanc) ;
     padding-top: 30px;
 } 
@@ -115,6 +111,34 @@ h2:hover{
 }
 
 #logo {
-	margin: 20px auto 20px auto;
+	margin: 20px auto 5px auto;
     width: 100px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #313131;
+    color: var(--blanc);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    padding: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.bouton {
+    border: 1px solid var(--blanc);
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: #202020;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.bouton:hover {
+    background-color: #e5e5e5;
+    color: black;
 }
