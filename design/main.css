@@ -20,7 +20,7 @@ h1,h3 {
 }
 
 body#wpp {
-    background-image: url("file:///E:/portfoliocode/images/raccoon.jpg");
+    background: url("../images/raccoon.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;

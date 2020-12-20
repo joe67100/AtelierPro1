@@ -20,11 +20,11 @@
         <div class="menu">
             <nav class="navaccueil">
                 <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="quisuisje.html">Qui suis-je ?</a></li>
-                    <li><a href="portfolio.html">PORTFOLIO</a></li>
-                    <li><a href="btssio.html">BTS SIO</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="quisuisje.php">Qui suis-je ?</a></li>
+                    <li><a href="portfolio.php">PORTFOLIO</a></li>
+                    <li><a href="btssio.php">BTS SIO</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
         </div>
