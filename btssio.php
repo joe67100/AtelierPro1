@@ -12,13 +12,17 @@
 <body>
     <header>
         <?php include('includes/header.php')?>
+        <style type="text/css">
+          #a3
+          {color: var(--orange);}
+        </style>
     </header>
     <section>
 
 
     </section>
     <footer>
-        <a href="mailto:joefeucht67220@gmail.com" class="bouton">Contactez-moi</a>
+        <?php include('includes/footer.php')?>
     </footer>
 </body>
 </html>

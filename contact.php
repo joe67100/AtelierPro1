@@ -12,6 +12,10 @@
 <body>
     <header>
         <?php include('includes/header.php')?>
+        <style type="text/css">
+          #a4 
+          {color: var(--orange);}
+        </style>
     </header>
 
 </body>
