@@ -15,8 +15,10 @@ main {
     font-family: 'Dosis', sans-serif;
 }
 
-body {
+html, body {
     margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 h1,h3 {
@@ -178,6 +180,7 @@ h4 {
 .containercomp {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
     grid-gap: 1px;
 }
 
@@ -202,4 +205,75 @@ h4 {
 	margin: 15px auto;
 	display: block;
 	background: black;
+}
+
+progress {
+    margin-bottom: 10px;
+}
+/* Contact */
+
+.sepcontact {
+    width: 1px;
+	height: 50px;
+	margin: auto;
+	display: block;
+	background: black;
+}
+
+.maincontact {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.maincontact img {
+    margin-top: 10px;
+    width: 65px;
+    height: 65px;
+}
+
+.contactmail {
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'cali', 'dosis', sans-serif;
+}
+
+.contactmail a {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contactmail a:hover {
+    color: var(--orange);
+}
+
+.clique {
+    font-family: 'Dosis';
+    position: relative;
+    transform: rotate(5deg);
+    font-size: 16px;
+    left: -180px;
+    top: 10px;
+    font-family: cursive, 'dosis', sans-serif;
+}
+
+.clique img {
+    width: 75px;
+    height: 75px;
+    transform: rotate(325deg);
+}
+
+.clique p {
+    margin-top:10px;
+}
+
+/*POLICES perso*/
+@font-face{
+	font-family: 'cali';
+    src: url('../fonts/Nathalia.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'cursive';
+    src: url('../fonts/Cursive\ standard\ Bold.ttf') format('truetype');
 }

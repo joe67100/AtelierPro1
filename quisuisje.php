@@ -19,69 +19,73 @@
         </style>
     </header>
     <main>
-        <div class="qsjhaut">
+        <section class="qsjhaut">
             <h4>Qui suis-je ?</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius iure beatae quasi soluta cum repellat consectetur assumenda obcaecati tempore aperiam?</p>
-        </div>
+        </section>
         <!-- Séparateur -->
         <span class="sepqsj"></span>
         <h4>Mes compétences</h4>
-        <div class="containercomp">
+        <section class="containercomp">
 
             <!--Compétence 1  -->
-            <div class="comp">
+            <article class="comp">
                 <img src="images/html5.png" alt="HTML5"> 
                 <p>HTML5</p>
                 <span class="sepcomp"><!-- Séparateur--></span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed explicabo unde facere!</p>
-            </div>
+                <progress max="100" value="60"> 60% </progress>
+            </article>
 
             <!--Compétence 2  -->
             
-            <div class="comp">
+            <article class="comp">
                 <img src="images/css3.png" alt="CSS3">
                 <p>CSS3</p>
                 <span class="sepcomp"><!-- Séparateur--></span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed explicabo unde facere!</p>
-            </div>
+                <progress max="100" value="60"> 60% </progress>
+            </article>
 
 
             <!--Compétence 3  -->
 
-            <div class="comp">
+            <article class="comp">
                 <img src="images/php.png" alt="PHP">
                 <p>PHP</p>
                 <span class="sepcomp"><!-- Séparateur--></span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed explicabo unde facere!</p>
-            </div>
+                <progress max="100" value="50"> 50% </progress>
+            </article>
 
             <!--Compétence 4  -->
 
-            <div class="comp">
+            <article class="comp">
                 <img src="images/sql.png" alt="SQL">
                 <p>MySQL</p>
                 <span class="sepcomp"><!-- Séparateur--></span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed explicabo unde facere!</p>
-            </div>
+                <progress max="100" value="70"> 70% </progress>
+            </article>
 
             <!--Compétence 5  -->
 
-            <div class="comp">
+            <article class="comp">
                 <img src="images/photoshop.png" alt="PHOTOSHOP">
                 <p>Photoshop</p>
                 <span class="sepcomp"><!-- Séparateur--></span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed explicabo unde facere!</p>
-            </div>
+                <progress max="100" value="30"> 30% </progress>
+            </article>
 
             <!--Compétence 6  -->
 
-            <div class="comp">
+            <article class="comp">
                 <img src="images/audacity.png" alt="AUDACITY">
                 <p>Audacity</p>
                 <span class="sepcomp"><!-- Séparateur--></span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed explicabo unde facere!</p>
-            </div>
-        </div>
+                <progress max="100" value="60"> 60% </progress>
+            </article>
+        </section>
+        <section>
+            <h4>Mes formations</h4>
+
+        </section>
     </main>
     <footer>
         <?php include('includes/footer.php')?>
