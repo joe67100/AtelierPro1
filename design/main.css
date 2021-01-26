@@ -3,6 +3,7 @@
 :root {
     --blanc: #ebebeb;
     --orange: #f99103;
+    --noir: #313131;
 }
 
 header {
@@ -41,6 +42,7 @@ a {
 
 a:hover {
     color: var(--orange);
+    text-decoration: underline;
 }
 
 #wpp li {
@@ -76,6 +78,10 @@ a:hover {
 }
 
 /* Header général */
+
+ul {
+    padding: 0;
+}
 
 nav .navheader{
 	box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0.5);
@@ -149,9 +155,14 @@ footer {
 /* Page 'qui suis-je ?'*/
 
 h4 {
-    font-size: 24px;
+    font-size: 25px;
     margin: 10px;
     text-align: center;
+    color: var(--orange);
+}
+
+h4:hover {
+    text-decoration: underline;
 }
 
 .qsjhaut {
@@ -166,7 +177,7 @@ h4 {
 
 .qsjhaut:hover {
     color: white;
-    background-color: black;
+    background-color: #313131;
 }
 
 .sepqsj {
@@ -189,6 +200,9 @@ h4 {
     text-align: center;
 }
 
+.comp p {
+    font-size: 17px;
+}
 
 .comp img{
     height: 100px;
@@ -207,9 +221,234 @@ h4 {
 	background: black;
 }
 
-progress {
-    margin-bottom: 10px;
+.comp p {
+    margin: 3px 0px 10px 0px;
 }
+/* Barre de progression page "Qui suis-je ?" */
+
+.compprogress {
+    background: rgb(194, 201, 216);
+    display: inline-block;
+    width: 20%;
+    height: 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius : 4px;
+    box-shadow: 0 0 8px #f99103;
+    margin-bottom: 10px;
+
+}
+
+.compprogress span {
+    height: 4px;
+    float : left;
+    background: var(--orange);
+}
+
+.htmlcsssql {
+    width: 70%;
+    animation: htmlcsssql 3s;
+}
+
+.php {
+    width: 50%;
+    animation: php 3s;
+}
+
+.photoshop {
+    width: 30%;
+    animation: photoshop 3s;
+}
+
+.audacity {
+    width: 60%;
+    animation: audacity 3s;
+}
+
+/* Formations */
+
+.formations{
+    text-align: center;
+}
+
+.formations article {
+    font-size: 17px;
+}
+
+.sepform {
+    width: 20px;
+    height: 2px;
+    margin: 15px auto;
+    display: block;
+    background: black;
+}
+
+.date {
+    font-style: italic;
+}
+
+.diplome {
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.formation {
+    display: inline-block;
+    position: relative;
+    animation: formation 5s;
+}
+
+.formation2 {
+    display: inline-block;
+    position: relative;
+    animation: formation2 5s;
+}
+
+.subformations img {
+    margin: 0px 20px 0px 20px;
+    width: 150px;
+    border-radius: 50px;
+}
+/* Qualités*/
+
+.containerqualites {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+    margin: 20px 20px 0px 20px;
+}
+
+.qualites {
+    background-color: var(--noir);
+    border: 1px solid white;
+    color: var(--blanc);
+    border-radius: 12px;
+    height: 180px;
+    width: 320px;
+    justify-self: center;
+    box-shadow: 5px 5px 8px 1px rgba(0,0,0,0.55);
+    text-align :center;
+}
+
+/* CV */
+
+.cv {
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+}
+
+.btncv{
+    border: 1px solid #202020;
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: var(--blanc);
+    color: black;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.btncv:hover {
+    background-color: #e5e5e5;
+    color: black;
+}
+
+/* Page "Portfolio" */
+
+h5 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.real {
+    text-align: center;
+    margin: 0 auto;
+    width: 700px;
+    color: var(--blanc);
+}
+
+.contenu {
+    padding: 20px;
+    background: var(--noir);
+    border: 2px solid var(--orange);
+    border-radius: 5px;
+    position: relative;
+}
+
+.coin {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid var(--orange);
+    background-color: white;
+    position: absolute;
+}
+
+#coin-tl {
+    top: -5px;
+    left: -5px;
+    animation: cointlbl 3s;
+}
+
+#coin-tr {
+    top: -5px;
+    right: -5px;
+    animation: cointrbr 3s;
+}
+#coin-br {
+    bottom: -5px;
+    right: -5px;
+    animation: cointrbr 3s;
+}
+#coin-bl {
+    bottom: -5px;
+    left: -5px;
+    animation: cointlbl 3s;
+}
+
+/* Projets */
+
+.projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projet {
+    width: 400px;
+    margin: 30px auto;
+    display: inline-block;
+    background-color: white;
+    padding-bottom: 15px;
+    border: 0px black solid;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+.projet img {
+    min-width: 400px;
+    height: 266px;
+}
+
+.projet span {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+
+.picture {
+    width: 400px;
+    height: 266px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.projet:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transition: 0.3s;
+}
+
 /* Contact */
 
 .sepcontact {
@@ -276,4 +515,140 @@ progress {
 @font-face{
     font-family: 'cursive';
     src: url('../fonts/Cursive\ standard\ Bold.ttf') format('truetype');
+}
+
+/* Animation des barres de compétences */
+
+@keyframes htmlcsssql {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes php {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+@keyframes photoshop {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+
+@keyframes audacity {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes formation {
+    0%{
+        left: -500px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+@keyframes formation2 {
+    0%{
+        right: -500px;
+    }
+    100%{
+        right: 0px;
+    }
+}
+
+@keyframes cointlbl {
+    0%{
+        left: -5px;
+    }
+    100%{
+        left: 98.5%;
+    }
+}
+
+@keyframes cointrbr {
+    0%{
+        right: -5px;
+    }
+    100%{
+        right: 98.5%;
+    }
+}
+
+/* Responsive */
+
+@media screen and (max-width:1300px){
+    .containerqualites{
+        gap: 0px;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px 0 20px;
+    }
+    nav .navheader {
+        box-shadow: none;
+        padding-bottom: 0;
+    }
+    .navheader li {
+        margin: 10px;
+    }
+    #logo {
+        display: none;
+    }
+    .separator {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .qsjhaut{
+        width: 500px;
+    }
+}
+@media screen and (max-width:600px){
+    .qsjhaut{
+        width: 400px;
+    }
+}
+@media screen and (max-width:450px){
+    .qsjhaut{
+        width: 300px;
+    }
+}
+@media screen and (max-width:300px){
+    .qsjhaut{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:1050px){
+    .containerqualites{
+        grid-template-columns: none;
+        gap: 10px;
+    }
+    .sepform{
+        width: 2px;
+        height: 20px;
+    }
+    .subformations img {
+        display: none;
+    }
 }
