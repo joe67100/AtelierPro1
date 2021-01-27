@@ -42,7 +42,6 @@ a {
 
 a:hover {
     color: var(--orange);
-    text-decoration: underline;
 }
 
 #wpp li {
@@ -101,6 +100,7 @@ nav .navheader{
 
 .navheader a:hover {
     color: #f5b151;
+    text-decoration: underline;
 }
 
 h2 {

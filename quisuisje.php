@@ -135,7 +135,7 @@
                 </article>
             </section>
             <section class="cv">
-                <a href="files/cv2021.pdf" class="btncv">Mon curriculum vitæ</a>
+                <a href="files/cv2021.pdf" class="btncv" target="_blank">Mon curriculum vitæ</a>
             </section>
     </main>
     <footer>
