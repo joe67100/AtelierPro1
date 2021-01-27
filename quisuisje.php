@@ -14,7 +14,7 @@
     </header>
     <main>
         <section class="qsjhaut">
-            <h4>Qui suiserzzeeaze ?</h4>
+            <h4>Qui suiszzz ?</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius iure beatae quasi soluta cum repellat consectetur assumenda obcaecati tempore aperiam?</p>
         </section>
 
