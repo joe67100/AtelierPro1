@@ -122,20 +122,20 @@
             <h4>Mes qualités</h4>
             <section class="containerqualites">
                 <article class="qualites">
-                    <p>CURIEUX</p>
-                    <i class="fas fa-atom fa-spin" style="font-size: 50px; color:var(--orange); height:40px; margin-top:20px"></i>
+                    <p>DYNAMIQUE</p>
+                    <i class="fas fa-fighter-jet" style="font-size: 50px; color:var(--orange); margin-top:20px; transform: rotate(325deg);"></i>
                 </article>
                 <article class="qualites">
-                    <p>DYNAMIQUE</p>
-                    <i class="fas fa-fighter-jet fa-spin" style="font-size: 50px; color:var(--orange); height:40px; margin-top:20px"></i>
+                    <p>CURIEUX</p>
+                    <i class="fas fa-atom fa-spin" style="font-size: 50px; color:var(--orange); margin-top:20px"></i>
                 </article>
                 <article class="qualites">
                     <p>RIGOUREUX</p>
-                    <i class="fas fa-pen-fancy fa-spin" style="font-size: 50px; color:var(--orange); height:40px; margin-top:20px"></i>
+                    <i class="fas fa-pen-fancy" style="font-size: 50px; color:var(--orange); margin-top:20px"></i>
                 </article>
             </section>
             <section class="cv">
-                <a href="files/cv2021.pdf" class="btncv" target="_blank">Mon curriculum vitæ</a>
+                <a href="files/cv2021.pdf" class="btncv" target="_blank"><i class="far fa-eye">  Mon curriculum vitæ</i></a>
             </section>
     </main>
     <footer>

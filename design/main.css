@@ -165,7 +165,7 @@ h4:hover {
     text-decoration: underline;
 }
 
-.qsjhaut {
+.qsjhaut, .btssiodef {
     width: 600px;
     margin: 30px auto;
     text-align: center;
@@ -175,7 +175,7 @@ h4:hover {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-.qsjhaut:hover {
+.qsjhaut:hover, .btssiodef:hover {
     color: white;
     background-color: #313131;
 }
@@ -198,6 +198,7 @@ h4:hover {
 .comp {
     border: 1px solid black;
     text-align: center;
+    background-color: rgb(238, 237, 237);
 }
 
 .comp p {
@@ -425,7 +426,7 @@ h5 {
     box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
 }
 
-.projet img {
+.projet img, .projet video {
     min-width: 400px;
     height: 266px;
 }
@@ -449,6 +450,48 @@ h5 {
 	transition: 0.3s;
 }
 
+/* BTS SIO */
+
+.btssiodef {
+    position: relative;
+}
+
+.sisrslam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contentsisrslam {
+    width: 400px;
+    margin: 30px auto;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.circle h4 {
+    width: 100px;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 50%;
+    background-color: var(--noir);
+    text-align: center;
+    float:inline-start;
+}
+
+legend {
+    background-color: var(--orange);
+    color: var(--blanc);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+fieldset {
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
 /* Contact */
 
 .sepcontact {
@@ -593,6 +636,8 @@ h5 {
 
 /* Responsive */
 
+    /*Header*/
+
 @media screen and (max-width:1300px){
     .containerqualites{
         gap: 0px;
@@ -617,24 +662,33 @@ h5 {
     }
 }
 
+/* "Qui suis-je (paragraphe tout en haut) + "Clique ici" et flêche du formulaire page contact */
 
 @media screen and (max-width:800px){
-    .qsjhaut{
+    .qsjhaut, .btssiodef{
         width: 500px;
+    }
+    .clique img {
+        transform: roate(320deg);
+    }
+    .clique {
+        left: 0;
+        top: 20px;
+        transform: rotate(340deg);
     }
 }
 @media screen and (max-width:600px){
-    .qsjhaut{
+    .qsjhaut, .btssiodef{
         width: 400px;
     }
 }
 @media screen and (max-width:450px){
-    .qsjhaut{
+    .qsjhaut, .btssiodef{
         width: 300px;
     }
 }
 @media screen and (max-width:300px){
-    .qsjhaut{
+    .qsjhaut, .btssiodef{
         width: 200px;
     }
 }

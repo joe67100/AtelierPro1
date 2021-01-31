@@ -3,6 +3,7 @@
 <head>
     <?php include('includes/head.php')?>
     <title>Accueil - PORTFOLIO</title>
+    <meta name="description" content="Bienvenue sur mon portfolio...">
 </head>
 <body id="wpp">
     <div class="menu">

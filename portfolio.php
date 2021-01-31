@@ -39,24 +39,37 @@
             </div>
         </section>
         <h4>Mes projets : </h4>
-        <p style="text-align:center;">J'ai eu l'occasion, au sein de mon entreprise, de travailler sur différents projets de développement : </p>
+        <p style="text-align:center;">J'ai eu l'occasion de travailler sur différents projets de développement en plus de celui du portfolio : </p>
         <section class="projets">
             <div class="projet">
                 <a href="index.php">
                     <div class="picture">
-                        <img src="images/raccoon.jpg" alt="Projet1">
+                        <video autoplay muted loop>
+                            <source src="images/javascript.mp4" type="video/mp4" alt="Projet1">
+                        </video>
                     </div>
-                    <span>Projet : tableau</span>
-                    <span class="date-projet">2020 - 2021</span>
+                    <span>Projet > bot javascript</span>
+                    <span class="date-projet"><cite>2020 - 2021</cite></span>
+                </a>
+            </div>
+            <div class="projet">
+                <a href="index.php">
+                    <div class="picture">
+                        <img src="images/tableauprojet.jpg" alt="Projet2">
+                    </div>
+                    <span>Projet > tableau</span>
+                    <span class="date-projet"><cite>2020 - 2021</cite></span>
                 </a>
             </div>
             <div class="projet">
             <a href="index.php">
                     <div class="picture">
-                        <img src="images/update.jpg" alt="Projet2">
+                        <video autoplay muted loop>
+                            <source src="images/update.mp4" type="video/mp4" alt="Projet3">
+                        </video>
                     </div>
-                    <span>Projet : mise à jour</span>
-                    <span class="date-projet">2020</span>
+                    <span>Projet > mise à jour</span>
+                    <span class="date-projet"><cite>2020</cite></span>
                 </a>
             </div>
         </section>
@@ -64,6 +77,5 @@
     <footer>
         <?php include('includes/footer.php')?>
     </footer>
-    
 </body>
 </html>

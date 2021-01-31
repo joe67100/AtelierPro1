@@ -19,7 +19,7 @@
             <img src="images/at.png" alt="AT">
         </div>
         <div class="contactmail">
-            <a href="mailto:joefeucht67220@gmail.com">Remplis d'abord ce formulaire !</a>
+            <a href="mailto:joefeucht67220@gmail.com">joefeucht67220@gmail.com</a>
             <div class="clique">
                 <img src="images/fleche.png" alt="FLECHE">
                 <p>Clique ici !<p>
