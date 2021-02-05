@@ -48,6 +48,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta aut, quas dolores minima quasi laudantium iure omnis delectus odio!</p>
             </div>
         </section>
+        
 
     </main>
     <footer>

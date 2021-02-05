@@ -178,6 +178,7 @@ h4:hover {
 .qsjhaut:hover, .btssiodef:hover {
     color: white;
     background-color: #313131;
+    transition: background-color 0.8s, color 0.3s;
 }
 
 .sepqsj {
@@ -198,7 +199,13 @@ h4:hover {
 .comp {
     border: 1px solid black;
     text-align: center;
+}
+
+.comp:nth-child(odd) {
     background-color: rgb(238, 237, 237);
+}
+.comp:nth-child(even) {
+    background-color: rgb(240, 235, 230);
 }
 
 .comp p {
@@ -382,6 +389,15 @@ h5 {
     border: 2px solid var(--orange);
     background-color: white;
     position: absolute;
+    transition: width 2s, height 2s, border-radius 2s, transform 2s, border-color 2s;
+}
+
+.coin:hover {
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    transform: rotate(480deg);
+    border-color: #f95d03;
 }
 
 #coin-tl {
@@ -447,7 +463,7 @@ h5 {
 
 .projet:hover {
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-	transition: 0.3s;
+	transition: 0.8s;
 }
 
 /* BTS SIO */
@@ -662,7 +678,7 @@ fieldset {
     }
 }
 
-/* "Qui suis-je (paragraphe tout en haut) + "Clique ici" et flêche du formulaire page contact */
+/* "Qui suis-je (paragraphe tout en haut) + "Clique ici" et flêche du formulaire page contact + "compétences" template */
 
 @media screen and (max-width:800px){
     .qsjhaut, .btssiodef{
@@ -675,6 +691,10 @@ fieldset {
         left: 0;
         top: 20px;
         transform: rotate(340deg);
+    }
+    .containercomp{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
     }
 }
 @media screen and (max-width:600px){
@@ -692,6 +712,8 @@ fieldset {
         width: 200px;
     }
 }
+
+/* Qualités */
 
 @media screen and (max-width:1050px){
     .containerqualites{
