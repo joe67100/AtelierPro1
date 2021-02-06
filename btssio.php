@@ -43,10 +43,16 @@
         </section>
 
         <section class="pqbts">
-            <div class="circle">
-                <h4>Pourquoi le choix de cette formaton ?</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta aut, quas dolores minima quasi laudantium iure omnis delectus odio!</p>
-            </div>
+            <article class="cercle cer1">
+                <img src="images/interrogation1" alt="Pourquoi?">
+            </article>
+            <article class="cercle cer2">
+                <img src="images/interrogation2" alt="Pourquoi?">
+            </article>
+            <article>
+                <h4>Pourquoi le choix de cette formation ?</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius iste sed impedit non? Exercitationem fugit iste eos ea aperiam. Labore sint at neque esse repellat ratione sapiente tempore in libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium facere optio rerum voluptate iusto vel qui quasi quidem explicabo consectetur suscipit aliquid blanditiis earum, corrupti maxime praesentium! Nisi enim quas est non facere debitis voluptas aliquam quaerat! Ut repellat modi et numquam atque molestias doloribus quaerat, aliquid facere libero voluptates.</p>
+            </article>
         </section>
         
 

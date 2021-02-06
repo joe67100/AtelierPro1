@@ -1,7 +1,7 @@
 <!-- Prénom -->
     <div class="headerhaut">
-        <h2 id="haut" title="Accueil"><a href="index.php">Joé FEUCHT</a></h2>
-
+        <a href="https://www.youtube.com/watch?v=UcRtFYAz2Yo&t=48s" target="_blank" class="easteregg">Clique!</a>
+        <h2 id="haut" title="Accueil (ps: passe ta souris en haut à droite de l'écran !)"><a href="index.php">Joé FEUCHT</a></h2>
         <!-- SPAN -->
         <span class="separator"></span>
 

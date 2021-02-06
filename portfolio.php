@@ -42,18 +42,16 @@
         <p style="text-align:center;">J'ai eu l'occasion de travailler sur différents projets de développement en plus de celui du portfolio : </p>
         <section class="projets">
             <div class="projet">
-                <a href="index.php">
+                <a href="projet1.php">
                     <div class="picture">
-                        <video autoplay muted loop>
-                            <source src="images/javascript.mp4" type="video/mp4" alt="Projet1">
-                        </video>
+                        <video autoplay muted loop src="images/javascript.mp4" type="video/mp4" alt="Projet1" min-width="400" height="266"></video>
                     </div>
                     <span>Projet > bot javascript</span>
                     <span class="date-projet"><cite>2020 - 2021</cite></span>
                 </a>
             </div>
             <div class="projet">
-                <a href="index.php">
+                <a href="projet2.php">
                     <div class="picture">
                         <img src="images/tableauprojet.jpg" alt="Projet2">
                     </div>
@@ -62,11 +60,9 @@
                 </a>
             </div>
             <div class="projet">
-            <a href="index.php">
+            <a href="projet3.php">
                     <div class="picture">
-                        <video autoplay muted loop>
-                            <source src="images/update.mp4" type="video/mp4" alt="Projet3">
-                        </video>
+                        <video autoplay muted loop src="images/update.mp4" type="video/mp4" alt="Projet3" max-width="400" height="266"></video>
                     </div>
                     <span>Projet > mise à jour</span>
                     <span class="date-projet"><cite>2020</cite></span>

@@ -76,10 +76,26 @@ a:hover {
     border-color: var(--orange);
 }
 
+.navaccueil a:hover {
+    text-decoration: underline;
+    transition: color 0.8s;
+}
+
 /* Header général */
 
 ul {
     padding: 0;
+}
+
+.headerhaut a.easteregg {
+    position:absolute;
+    right: 0;
+    color: var(--noir);
+}
+.headerhaut a.easteregg:hover {
+    position:absolute;
+    right: 0;
+    color: var(--orange);
 }
 
 nav .navheader{
@@ -160,11 +176,6 @@ h4 {
     text-align: center;
     color: var(--orange);
 }
-
-h4:hover {
-    text-decoration: underline;
-}
-
 .qsjhaut, .btssiodef {
     width: 600px;
     margin: 30px auto;
@@ -442,7 +453,7 @@ h5 {
     box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
 }
 
-.projet img, .projet video {
+.projet img {
     min-width: 400px;
     height: 266px;
 }
@@ -472,6 +483,8 @@ h5 {
     position: relative;
 }
 
+/* Explication SISR/SLAM */
+
 .sisrslam {
     display: flex;
     flex-wrap: wrap;
@@ -485,15 +498,51 @@ h5 {
     padding-bottom: 15px;
 }
 
-.circle h4 {
-    width: 100px;
-    padding: 30px;
+/* Pourquoi le choix de cette formation ? */
+
+.pqbts {
+    position: relative;
+    max-width: 700px;
     margin: 30px auto;
-    border-radius: 50%;
-    background-color: var(--noir);
-    text-align: center;
-    float:inline-start;
+    padding: 20px;
 }
+.cercle {
+    position: relative;
+    overflow: hidden;
+}
+
+.cercle.cer1 img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+.cercle.cer2 img {
+    width: 113px;
+    height: 113px;
+    border-radius: 50%;
+}
+
+.cercle.cer1 {
+    width: 170px;
+    height: 170px;
+    float: left;
+    border: 1px solid rgb(226, 134, 59);
+    border-radius: 40%;
+    margin: 10px;
+    shape-outside: circle();
+}
+
+.cercle.cer2 {
+    width: 113px;
+    height: 113px;
+    float: right;
+    border: 1px solid rgb(226, 134, 59);;
+    border-radius: 40%;
+    margin: 15px;
+    shape-outside: circle();
+}
+
+
 
 legend {
     background-color: var(--orange);
@@ -508,6 +557,37 @@ fieldset {
     border-radius: 10px;
     box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
 }
+
+
+/* Projets */
+
+.contener{
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    width: 500px;
+    margin: 30px auto;
+}
+.contener h4:before{
+	content: "« ";
+	color: var(--noir);
+}
+
+.contener h4:after{
+	content: " »";
+	color: var(--noir);
+}
+
+.contener h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+#picture-project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
 /* Contact */
 
 .sepcontact {
@@ -684,6 +764,9 @@ fieldset {
     .qsjhaut, .btssiodef{
         width: 500px;
     }
+    .real {
+        width: 580px;
+    }
     .clique img {
         transform: roate(320deg);
     }
@@ -701,15 +784,27 @@ fieldset {
     .qsjhaut, .btssiodef{
         width: 400px;
     }
+    .real {
+        width: 430px;
+    }
+    .cercle.cer2{
+        display: none;
+    }
 }
 @media screen and (max-width:450px){
     .qsjhaut, .btssiodef{
         width: 300px;
     }
+    .real {
+        width: 330px;
+    }
 }
 @media screen and (max-width:300px){
     .qsjhaut, .btssiodef{
         width: 200px;
+    }
+    .real {
+        width: 300px;
     }
 }
 
