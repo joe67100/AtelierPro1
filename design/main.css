@@ -26,6 +26,8 @@ h1,h3 {
     font-size: 4.4em;
 }
 
+/* Page d'accueil */
+
 body#wpp {
     background: url("../images/raccoon.jpg");
     background-repeat: no-repeat;
@@ -42,6 +44,24 @@ a {
 
 a:hover {
     color: var(--orange);
+}
+
+.boutonacc {
+    border: 1px solid var(--noir);
+    color: var(--noir);
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: var(--blanc);
+    padding: 12px;
+    border-radius: 5px;
+    margin-right: 118px;
+}
+
+.boutonacc:hover {
+    background-color: var(--orange);
+    color: var(--blanc);
+    border: 1px solid var(--blanc);
+    transition: background-color 0.8s, color 0.5s, border 0.8s;
 }
 
 #wpp li {
@@ -88,13 +108,6 @@ a:hover {
 #toggle {
     display: none;
 }
-
-
-
-
-
-
-
 
 ul {
     padding: 0;
@@ -785,6 +798,27 @@ fieldset {
     }
 }
 
+
+
+/* Page d'accueil */
+
+@media screen and (min-width:651px){
+    .boutonacc {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1500px){
+    .menu {
+        left: 20px;
+    }
+}
+@media screen and (max-width:650px){
+    .navaccueil {
+        display: none;
+    }
+}
+
 /* "Qui suis-je (paragraphe tout en haut) + "Clique ici" et flêche du formulaire page contact + "compétences" template */
 
 @media screen and (min-width:800px){
@@ -792,7 +826,6 @@ fieldset {
         display: none;
     }
 }
-
 
 @media screen and (max-width:800px){
     .qsjhaut, .btssiodef{
@@ -827,7 +860,7 @@ fieldset {
     }
     header {
         display: block;
-        padding: 0px 20px 10px 20px;
+        padding-bottom: 10px;
     }
 
     label {
@@ -870,6 +903,9 @@ fieldset {
     }
     .contener {
         width: 300px;
+    }
+    .boutonacc {
+        margin-right : 0px;
     }
 }
 @media screen and (max-width:300px){
