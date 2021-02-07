@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php include('includes/head.php')?>
-    <title>Mon portfolio</title>
+    <title>Projet 2</title>
 </head>
 <body>
     <header>
@@ -10,16 +10,20 @@
     </header>
     <main>
         <section class="contener">
-            <h3>Projet > tableau</h3>
+            <h3><a href="portfolio.php"><i class="fas fa-arrow-circle-up" style="font-size:30px; transform: rotate(270deg); margin-right:10px;"></i></a>Projet > tableau</h3>
             <article>
                 <h4>Introduction</h4>
-                <p>Ceci est mon premier projet</p>
+                <p>Ce projet professionnel avait comme but la création d'un tableau d'affichage avec différentes informations (client, numéro de série d'appareils) afin de faciliter le travail de plusieurs salariés en interne. Ce tableau exploite deux bases de données MariaDB. PHP a donc été principalement utilisé. </p>
             </article>
             <!-- PRODUCTION -->
             <article id="picture-project">
                 <h4>Aperçu</h4>
+                
+                <div class="nondispo">
+                    <span>Non disponible.</span>
+                </div>
 
-                <img src="" alt="mon premier projet" />
+                <legend>Aperçu non disponible.</legend>
             </article>
         </section>
     </main>

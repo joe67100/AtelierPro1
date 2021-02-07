@@ -64,7 +64,7 @@
                     <div class="picture">
                         <video autoplay muted loop src="images/update.mp4" type="video/mp4" alt="Projet3" max-width="400" height="266"></video>
                     </div>
-                    <span>Projet > mise à jour</span>
+                    <span>Projet > mises à jour</span>
                     <span class="date-projet"><cite>2020</cite></span>
                 </a>
             </div>

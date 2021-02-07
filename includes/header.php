@@ -9,7 +9,9 @@
         <img src="images/ratonlogo2.png" alt="logo" id="logo"/>
     </div>
     <!-- Menu -->
-    <nav>
+    <nav class="nav">
+        <label for="toggle" class="burger">&#9776</label>
+        <input type="checkbox" id="toggle"/>
         <ul class="navheader">
             <li><a href="quisuisje.php" id="a1">Qui suis-je ?</a></li>
             <li><a href="portfolio.php" id="a2">Portfolio</a></li>

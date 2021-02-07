@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php include('includes/head.php')?>
-    <title>Mon portfolio</title>
+    <title>Projet 1</title>
 </head>
 <body>
     <header>
