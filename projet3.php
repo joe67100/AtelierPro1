@@ -10,7 +10,7 @@
     </header>
     <main>
     <section class="contener">
-            <h3><a href="portfolio.php"><i class="fas fa-arrow-circle-up" style="font-size:30px; transform: rotate(270deg); margin-right:10px;"></i></a>Projet > Mises à jour</h3>
+            <h3><a href="portfolio.php"><i class="fas fa-arrow-circle-up second" style="font-size:30px; transform: rotate(270deg); margin-right:10px;"></i></a>Projet > Mises à jour</h3>
             <article>
                 <h4>Introduction</h4>
                 <p>Ce projet professionnel consistait à créer un site web référençant des mises à jour logiciels pour différents produits afin que celles-ci puissent être directement réalisées par les clients. Codé à l'aide de PHP, HTML et CSS.</p>

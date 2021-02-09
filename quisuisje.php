@@ -15,7 +15,7 @@
     <main>
         <section class="qsjhaut">
             <h4>Qui suis-je ?</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius iure beatae quasi soluta cum repellat consectetur assumenda obcaecati tempore aperiam?</p>
+            <p>Je m'appelle Joé, j'ai 20 ans et je suis actuellement étudiant en première année au sein du BTS SIO du CCI CFA de Strasbourg, option SISR. Interéssé par l'informatique depuis plusieurs années, j'ai décidé de me tourner vers une formation dans ce domaine afin d'acquérir de nouvelles compétences.</p>
         </section>
 
         <!-- Séparateur -->
@@ -30,7 +30,7 @@
                 <p>HTML5</p>
                 <span class="sepcomp"><!-- Séparateur--></span>
                 <span class="compprogress"><span class="htmlcsssql"></span></span>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam aspernatur id esse provident dolores, quasi soluta sunt earum laudantium.</p>
+                <p>Langage de balisage essentiel au développement web, j'ai pu acquérir les bases de celui-ci à travers des formations et notamment grâce à l'élaboration de ce portfolio.</p>
             </article>
 
             <!--Compétence 2  -->
@@ -40,7 +40,7 @@
                 <p>CSS3</p>
                 <span class="sepcomp"><!-- Séparateur--></span>
                 <span class="compprogress"><span class="htmlcsssql"></span></span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, assumenda!</p>
+                <p>Permettant d'ajouter du style à une page web, j'ai pu acquérir les bases en CSS de la même manière que l'HTML.</p>
             </article>
 
 
@@ -51,7 +51,7 @@
                 <p>PHP</p>
                 <span class="sepcomp"><!-- Séparateur--></span>
                 <span class="compprogress"><span class="php"></span></span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, assumenda!</p>
+                <p>Langage de programmation par excellence, j'ai eu l'occasion d'apprendre les bases à travers différents projets professionels.</p>
             </article>
 
             <!--Compétence 4  -->
@@ -61,7 +61,7 @@
                 <p>MySQL</p>
                 <span class="sepcomp"><!-- Séparateur--></span>
                 <span class="compprogress"><span class="htmlcsssql"></span></span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, assumenda!</p>
+                <p>Système de gestion de base de données avec lequel j'ai eu l'occasion de travailler de concert avec PHP.</p>
             </article>
 
             <!--Compétence 5  -->
@@ -71,7 +71,7 @@
                 <p>PHOTOSHOP</p>
                 <span class="sepcomp"><!-- Séparateur--></span>
                 <span class="compprogress"><span class="photoshop"></span></span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, assumenda!</p>
+                <p>Je possède les bases dans ce logiciel permettant d'effectuer des montages photos.</p>
             </article>
 
             <!--Compétence 6  -->
@@ -81,7 +81,7 @@
                 <p>AUDACITY</p>
                 <span class="sepcomp"><!-- Séparateur--></span>
                 <span class="compprogress"><span class="audacity"></span></span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, assumenda!</p>
+                <p>Logiciel d'enregistrement audio, j'ai, par le passé utilisé ce dernier afin de réaliser des montages audios.</p>
             </article>
         </section>
         <section class="formations">

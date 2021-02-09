@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Include du head afin d'éviter de réécrire le code -->
     <?php include('includes/head.php')?>
     <title>Le BTS SIO</title>
 </head>
 <body>
     <header>
+        <!-- Include du header afin d'éviter de réécrire le code -->
         <?php include('includes/header.php')?>
         <style type="text/css">
           #a3
@@ -51,13 +53,12 @@
             </article>
             <article>
                 <h4>Pourquoi le choix de cette formation ?</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius iste sed impedit non? Exercitationem fugit iste eos ea aperiam. Labore sint at neque esse repellat ratione sapiente tempore in libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium facere optio rerum voluptate iusto vel qui quasi quidem explicabo consectetur suscipit aliquid blanditiis earum, corrupti maxime praesentium! Nisi enim quas est non facere debitis voluptas aliquam quaerat! Ut repellat modi et numquam atque molestias doloribus quaerat, aliquid facere libero voluptates.</p>
+                <p>Étant intéressé par l'informatique depuis quelques années, j'ai choisi cette formation car je souhaitais élaborer un projet professionnel en m'orientant vers des métiers en lien avec ce domaine. Le choix de l'alternance résulte de l'envie d'acquérir à la fois des compétences théoriques en cours et pouvoir les mettre en pratique en entreprise. La possibilité d'avoir une première expérience professionnelle dans l'informatique et ainsi renforcer son employabilité sont des éléments qui m'ont fait choisir cette méthode de formation plutôt qu'une formation plus classique en initiale.</p>
             </article>
         </section>
-        
-
     </main>
     <footer>
+        <!-- Include du footer afin d'éviter de réécrire le code -->
         <?php include('includes/footer.php')?>
     </footer>
 </body>

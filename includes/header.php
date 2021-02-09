@@ -1,13 +1,13 @@
 <!-- Prénom -->
-    <div class="headerhaut">
-        <a href="https://www.youtube.com/watch?v=UcRtFYAz2Yo&t=48s" target="_blank" class="easteregg">Clique!</a>
+    <article class="headerhaut">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="easteregg">Clique!</a>
         <h2 id="haut" title="Accueil (ps: passe ta souris en haut à droite de l'écran !)"><a href="index.php">Joé FEUCHT</a></h2>
         <!-- SPAN -->
         <span class="separator"></span>
 
         <!-- LOGO -->
         <img src="images/ratonlogo2.png" alt="logo" id="logo"/>
-    </div>
+    </article>
     <!-- Menu -->
     <nav class="nav">
         <label for="toggle" class="burger">&#9776</label>

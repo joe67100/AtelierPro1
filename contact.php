@@ -13,18 +13,18 @@
         </style>
     </header>
     <main>
-        <div class="maincontact">
+        <section class="maincontact">
             <h4>Vous souhaitez me contacter ?</h4>
             <span class="sepcontact"><!--Séparateur--></span>
             <img src="images/at.png" alt="AT">
-        </div>
-        <div class="contactmail">
+        </section>
+        <section class="contactmail">
             <a href="mailto:joefeucht67220@gmail.com">joefeucht67220@gmail.com</a>
-            <div class="clique">
+            <article class="clique">
                 <img src="images/fleche.png" alt="FLECHE">
                 <p>Clique ici !<p>
-            </div>
-        </div>
+            </article>
+        </section>
     </main>
 </body>
 </html>
