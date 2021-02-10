@@ -9,7 +9,7 @@
     <section class="accueil">
         <article class="menu">
             <div class="texte">
-                <h1>Bienvenue,<br> je m'appelle <br><div class="menuorange">Test</div></h1>
+                <h1>Bienvenue,<br> je m'appelle <br><div class="menuorange">Joé FEUCHT</div></h1>
                 <h3>Étudiant <br><div class="menuorange">BTS SIO</div></h3>
             </div>
         </article>
