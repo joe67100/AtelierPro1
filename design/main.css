@@ -1,0 +1,939 @@
+/* Variables */
+
+:root {
+    --blanc: #ebebeb;
+    --orange: #f99103;
+    --noir: #313131;
+}
+
+header {
+    background-color: #313131;
+    text-align : center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+main {
+    font-family: 'Dosis', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1,h3 {
+    font-size: 4.4em;
+}
+
+/* Page d'accueil */
+
+body#wpp {
+    background: url("../images/raccoon.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    color: var(--blanc);
+}
+
+a {
+    text-decoration: none;
+    color: var(--blanc);
+}
+
+a:hover {
+    color: var(--orange);
+}
+
+.boutonacc {
+    border: 1px solid var(--noir);
+    color: var(--noir);
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: var(--blanc);
+    padding: 12px;
+    border-radius: 5px;
+    margin-right: 118px;
+}
+
+.boutonacc:hover {
+    background-color: var(--orange);
+    color: var(--blanc);
+    border: 1px solid var(--blanc);
+    transition: background-color 0.8s, color 0.5s, border 0.8s;
+}
+
+#wpp li {
+	list-style-type: none;
+    padding: 20px;
+    font-size: 3.8em;
+    font-weight: bold;
+}
+
+.menuorange {
+    color: var(--orange);
+}
+
+.menuorange:hover {
+    color: #fc5508;
+}
+
+.menu {
+    display: inline-block;
+    padding-right: 50px;
+    position: relative;
+    top: 100px;
+    left: 220px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.navaccueil {
+    position: relative;
+    top: 55px;
+    border-width: 0px 0px 0px 3px;
+    border-style: solid;
+    border-color: var(--orange);
+}
+
+.navaccueil a:hover {
+    text-decoration: underline;
+    transition: color 0.8s;
+}
+
+/* Header général */
+
+/*Menu burger mobile*/
+
+#toggle {
+    display: none;
+}
+
+ul {
+    padding: 0;
+}
+
+.headerhaut a.easteregg {
+    position:absolute;
+    right: 0;
+    color: var(--noir);
+}
+.headerhaut a.easteregg:hover {
+    position:absolute;
+    right: 0;
+    color: var(--orange);
+}
+
+nav .navheader{
+	box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0.5);
+    font-size: 2.2em;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.navheader li {
+    display: inline;
+    margin: 100px;
+}
+
+.navheader a {
+    color: var(--blanc);
+}
+
+.navheader a:hover {
+    color: #f5b151;
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+    font-size: 3.3em;
+    color: var(--blanc) ;
+    padding-top: 30px;
+} 
+
+h2:hover{
+    color:var(--orange);
+}
+
+.separator {
+	width: 150px;
+	height: 1px;
+	margin: 15px auto;
+	display: block;
+	background: var(--blanc);
+}
+
+#logo {
+	margin: 20px auto 5px auto;
+    width: 100px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #313131;
+    color: var(--blanc);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    padding: 50px 0 50px 0px;
+    margin-top: 20px;
+}
+
+.bouton {
+    border: 1px solid var(--blanc);
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: #202020;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.bouton:hover {
+    background-color: #e5e5e5;
+    color: black;
+}
+
+/* Page 'qui suis-je ?'*/
+
+h4 {
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+    color: var(--orange);
+}
+.qsjhaut, .btssiodef {
+    width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px;
+    border: 0px black solid;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.qsjhaut:hover, .btssiodef:hover {
+    color: white;
+    background-color: #313131;
+    transition: background-color 0.8s, color 0.3s;
+}
+
+.sepqsj {
+    width: 30%;
+	height: 2px;
+	margin: auto;
+	display: block;
+	background: black;
+}
+
+.containercomp {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 1px;
+}
+
+.comp {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.comp:nth-child(odd) {
+    background-color: rgb(238, 237, 237);
+}
+.comp:nth-child(even) {
+    background-color: rgb(240, 235, 230);
+}
+
+.comp p {
+    font-size: 17px;
+    margin: 3px 25px 10px 25px;
+}
+
+.comp img{
+    height: 100px;
+    padding-top: 10px;
+}
+
+.comp img:hover {
+    transform:scale(1.1);
+}
+
+.sepcomp {
+    width: 1px;
+	height: 10px;
+	margin: 15px auto;
+	display: block;
+	background: black;
+}
+/* Barre de progression page "Qui suis-je ?" */
+
+.compprogress {
+    background: rgb(194, 201, 216);
+    display: inline-block;
+    width: 20%;
+    height: 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius : 4px;
+    box-shadow: 0 0 8px #f99103;
+    margin-bottom: 10px;
+
+}
+
+.compprogress span {
+    height: 4px;
+    float : left;
+    background: var(--orange);
+}
+
+.htmlcsssql {
+    width: 70%;
+    animation: htmlcsssql 3s;
+}
+
+.php {
+    width: 50%;
+    animation: php 3s;
+}
+
+.photoshop {
+    width: 30%;
+    animation: photoshop 3s;
+}
+
+.audacity {
+    width: 60%;
+    animation: audacity 3s;
+}
+
+/* Formations */
+
+.formations{
+    text-align: center;
+}
+
+.formations article {
+    font-size: 17px;
+}
+
+.sepform {
+    width: 20px;
+    height: 2px;
+    margin: 15px auto;
+    display: block;
+    background: black;
+}
+
+.date {
+    font-style: italic;
+}
+
+.diplome {
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.formation {
+    display: inline-block;
+    position: relative;
+    animation: formation 5s;
+}
+
+.formation2 {
+    display: inline-block;
+    position: relative;
+    animation: formation2 5s;
+}
+
+.subformations img {
+    margin: 0px 20px 0px 20px;
+    width: 150px;
+    border-radius: 50px;
+}
+/* Qualités*/
+
+.containerqualites {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+    margin: 20px 20px 0px 20px;
+}
+
+.qualites {
+    background-color: var(--noir);
+    border: 1px solid white;
+    color: var(--blanc);
+    border-radius: 12px;
+    height: 180px;
+    width: 320px;
+    justify-self: center;
+    box-shadow: 5px 5px 8px 1px rgba(0,0,0,0.55);
+    text-align :center;
+}
+
+/* CV */
+
+.cv {
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+}
+
+.btncv{
+    border: 1px solid #202020;
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: var(--blanc);
+    color: black;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.btncv:hover {
+    background-color: #e5e5e5;
+    color: black;
+}
+
+/* Page "Portfolio" */
+
+h5 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.real {
+    text-align: center;
+    margin: 0 auto;
+    width: 700px;
+    color: var(--blanc);
+}
+
+.contenu {
+    padding: 20px;
+    background: var(--noir);
+    border: 2px solid var(--orange);
+    border-radius: 5px;
+    position: relative;
+}
+
+.coin {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid var(--orange);
+    background-color: white;
+    position: absolute;
+    transition: width 2s, height 2s, border-radius 2s, transform 2s, border-color 2s;
+}
+
+.coin:hover {
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    transform: rotate(480deg);
+    border-color: #f95d03;
+}
+
+#coin-tl {
+    top: -5px;
+    left: -5px;
+    animation: cointlbl 3s;
+}
+
+#coin-tr {
+    top: -5px;
+    right: -5px;
+    animation: cointrbr 3s;
+}
+#coin-br {
+    bottom: -5px;
+    right: -5px;
+    animation: cointrbr 3s;
+}
+#coin-bl {
+    bottom: -5px;
+    left: -5px;
+    animation: cointlbl 3s;
+}
+
+/* Projets */
+
+.projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projet {
+    width: 400px;
+    margin: 30px auto;
+    display: inline-block;
+    background-color: white;
+    padding-bottom: 15px;
+    border: 0px black solid;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+.projet img {
+    min-width: 400px;
+    height: 266px;
+}
+
+.projet span {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+
+.picture {
+    width: 400px;
+    height: 266px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.projet:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transition: 0.8s;
+}
+
+/* BTS SIO */
+
+.btssiodef {
+    position: relative;
+}
+
+/* Explication SISR/SLAM */
+
+.sisrslam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contentsisrslam {
+    width: 400px;
+    margin: 30px auto;
+    padding-bottom: 15px;
+}
+
+/* Pourquoi le choix de cette formation ? */
+
+.pqbts {
+    position: relative;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+}
+.cercle {
+    position: relative;
+    overflow: hidden;
+}
+
+.cercle.cer1 img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+.cercle.cer2 img {
+    width: 113px;
+    height: 113px;
+    border-radius: 50%;
+}
+
+.cercle.cer1 {
+    width: 170px;
+    height: 170px;
+    float: left;
+    border: 1px solid rgb(226, 134, 59);
+    border-radius: 40%;
+    margin: 10px;
+    shape-outside: circle();
+}
+
+.cercle.cer2 {
+    width: 113px;
+    height: 113px;
+    float: right;
+    border: 1px solid rgb(226, 134, 59);;
+    border-radius: 40%;
+    margin: 15px;
+    shape-outside: circle();
+}
+
+
+
+legend {
+    background-color: var(--orange);
+    color: var(--blanc);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+fieldset {
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+
+/* Projets */
+
+.contener{
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    width: 500px;
+    margin: 30px auto;
+}
+.contener h4:before{
+	content: "« ";
+	color: var(--noir);
+}
+
+.contener h4:after{
+	content: " »";
+	color: var(--noir);
+}
+
+.contener h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+#picture-project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.nondispo {
+    display: flex;
+    height: 538px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    background-color: whitesmoke;
+    
+}
+
+.nondispo span {
+    margin: auto;
+}
+
+
+/* Contact */
+
+.sepcontact {
+    width: 1px;
+	height: 50px;
+	margin: auto;
+	display: block;
+	background: black;
+}
+
+.maincontact {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.maincontact img {
+    margin-top: 10px;
+    width: 65px;
+    height: 65px;
+}
+
+.contactmail {
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'cali', 'dosis', sans-serif;
+}
+
+.contactmail a {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contactmail a:hover {
+    color: var(--orange);
+}
+
+.clique {
+    font-family: 'Dosis';
+    position: relative;
+    transform: rotate(5deg);
+    font-size: 16px;
+    left: -180px;
+    top: 10px;
+    font-family: cursive, 'dosis', sans-serif;
+}
+
+.clique img {
+    width: 75px;
+    height: 75px;
+    transform: rotate(325deg);
+}
+
+.clique p {
+    margin-top:10px;
+}
+
+/*POLICES perso*/
+@font-face{
+	font-family: 'cali';
+    src: url('../fonts/Nathalia.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'cursive';
+    src: url('../fonts/Cursive\ standard\ Bold.ttf') format('truetype');
+}
+
+/* Animation des barres de compétences */
+
+@keyframes htmlcsssql {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes php {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+@keyframes photoshop {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+
+@keyframes audacity {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes formation {
+    0%{
+        left: -500px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+@keyframes formation2 {
+    0%{
+        right: -500px;
+    }
+    100%{
+        right: 0px;
+    }
+}
+
+@keyframes cointlbl {
+    0%{
+        left: -5px;
+    }
+    100%{
+        left: 98.5%;
+    }
+}
+
+@keyframes cointrbr {
+    0%{
+        right: -5px;
+    }
+    100%{
+        right: 98.5%;
+    }
+}
+
+/* Responsive */
+
+    /* Header */
+
+@media screen and (max-width:1300px){
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px 0 20px;
+    }
+    nav .navheader {
+        box-shadow: none;
+        padding-bottom: 0;
+    }
+    .navheader li {
+        margin: 10px;
+    }
+    #logo {
+        display: none;
+    }
+    .separator {
+        display: none;
+    }
+}
+
+/* Page d'accueil */
+
+@media screen and (min-width:651px){
+    .boutonacc {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1500px){
+    .menu {
+        left: 20px;
+    }
+}
+@media screen and (max-width:650px){
+    .navaccueil {
+        display: none;
+    }
+    body#wpp {
+        background: url("../images/desert.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+/* "Qui suis-je (paragraphe tout en haut) + "Clique ici" et flêche page contact + "compétences" template */
+
+@media screen and (max-width:800px){
+    .qsjhaut, .btssiodef{
+        width: 500px;
+    }
+    .real {
+        width: 580px;
+    }
+    .clique img {
+        transform: rotate(320deg);
+    }
+    .clique {
+        left: 0;
+        top: 20px;
+        transform: rotate(340deg);
+    }
+    .containercomp{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    }
+    .headerhaut h2 {
+        margin-bottom: 10px;
+    }
+    /* Menu mobile */
+    .navheader {
+        display: none;
+        text-align: center;
+        margin: 0;
+    }
+    .navheader a {
+        display: block;
+    }
+    header {
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    label {
+        font-size: 40px;
+        color: var(--blanc);
+        cursor: pointer;
+    }
+    label:hover {
+        color: var(--orange);
+    }
+    #toggle:checked + .navheader{
+        display: block;
+    }
+   
+    
+}
+    @media screen and (min-width:800px){
+        .burger {
+            display: none;
+        }
+    }
+
+@media screen and (max-width:600px){
+    .qsjhaut, .btssiodef{
+        width: 400px;
+    }
+    .real {
+        width: 430px;
+    }
+    .cercle.cer2{
+        display: none;
+    }
+    .contener {
+        width: 400px;
+    }
+    .fas.fa-arrow-circle-up.second {
+        display: none;
+    }
+}
+@media screen and (max-width:450px){
+    .qsjhaut, .btssiodef{
+        width: 300px;
+    }
+    .real {
+        width: 330px;
+    }
+    .contener {
+        width: 300px;
+    }
+    .boutonacc {
+        margin-right : 0px;
+    }
+}
+@media screen and (max-width:300px){
+    .qsjhaut, .btssiodef{
+        width: 200px;
+    }
+    .real {
+        width: 300px;
+    }
+}
+
+/* Qualités */
+
+@media screen and (max-width:1300px){
+    .containerqualites{
+        gap: 0px;
+    }
+}
+
+@media screen and (max-width:1050px){
+    .containerqualites{
+        grid-template-columns: none;
+        gap: 10px;
+    }
+    .sepform{
+        width: 2px;
+        height: 20px;
+    }
+    .subformations img {
+        display: none;
+    }
+}
