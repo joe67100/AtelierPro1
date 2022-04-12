@@ -101,6 +101,8 @@ a:hover {
     transition: color 0.8s;
 }
 
+
+
 /* Header général */
 
 /*Menu burger mobile*/
@@ -126,14 +128,14 @@ ul {
 
 nav .navheader{
 	box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0.5);
-    font-size: 2.2em;
+    font-size: 1.8em;
     padding-bottom: 20px;
     font-weight: bold;
 }
 
 .navheader li {
     display: inline;
-    margin: 100px;
+    margin: 50px;
 }
 
 .navheader a {
@@ -195,6 +197,10 @@ footer {
 }
 
 /* Page 'qui suis-je ?'*/
+
+.infoPerso {
+    text-align: center;
+}
 
 h4 {
     font-size: 25px;
@@ -292,14 +298,14 @@ h4 {
     animation: htmlcsssql 3s;
 }
 
+.reseau {
+    width: 90%;
+    animation: reseau 3s
+}
+
 .php {
     width: 50%;
     animation: php 3s;
-}
-
-.photoshop {
-    width: 30%;
-    animation: photoshop 3s;
 }
 
 .audacity {
@@ -377,6 +383,8 @@ h4 {
 .cv {
     margin: 50px 0px 50px 0px;
     text-align: center;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .btncv{
@@ -703,21 +711,21 @@ fieldset {
     }
 }
 
+@keyframes reseau {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
 @keyframes php {
     0%{
         width: 0%;
     }
     100%{
         width: 50%;
-    }
-}
-
-@keyframes photoshop {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 30%;
     }
 }
 

@@ -16,11 +16,11 @@
         <article class="menu">
             <nav class="navaccueil">
                 <ul>
-                    <li><a href="index.php">Accueil</a></li>
                     <li><a href="quisuisje.php">Qui suis-je ?</a></li>
                     <li><a href="portfolio.php">Portfolio</a></li>
                     <li><a href="btssio.php">BTS SIO</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="epreuvee4.php">Épreuve E4</a></li>
+                    <li><a href="epreuvee5.php">Épreuve E5</a></li>
                 </ul>
             </nav>
             <a href="quisuisje.php" class="boutonacc">Visite mon portfolio !</a>

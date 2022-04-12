@@ -15,7 +15,7 @@
     <main>
         <section class="qsjhaut">
             <h4>Qui suis-je ?</h4>
-            <p>Je m'appelle Joé, j'ai 20 ans et je suis actuellement étudiant en première année au sein du BTS SIO du CCI CFA de Strasbourg, option SISR. Interéssé par l'informatique depuis plusieurs années, j'ai décidé de me tourner vers une formation dans ce domaine afin d'acquérir de nouvelles compétences.</p>
+            <p>Je m'appelle Joé, j'ai 21 ans et je suis actuellement étudiant en deuxième année au sein du BTS SIO du CCI CFA de Strasbourg, option SISR. Interéssé par l'informatique depuis plusieurs années, j'ai décidé de me tourner vers une formation dans ce domaine afin d'acquérir de nouvelles compétences.</p>
         </section>
 
         <!-- Séparateur -->
@@ -67,21 +67,21 @@
             <!--Compétence 5  -->
 
             <article class="comp">
-                <img src="images/photoshop.png" alt="PHOTOSHOP">
-                <p>PHOTOSHOP</p>
+                <img src="images/reseau.png" alt="RESEAU">
+                <p>RÉSEAUX</p>
                 <span class="sepcomp"><!-- Séparateur--></span>
-                <span class="compprogress"><span class="photoshop"></span></span>
-                <p>Je possède les bases dans ce logiciel permettant d'effectuer des montages photos.</p>
+                <span class="compprogress"><span class="reseau"></span></span>
+                <p>Routage, Adressage IPv4, Annuaire LDAP, DHCP, DNS, DFS, VPN SSL / IPSec, continuité des services & redondance, supervision, pare-feu virtuel</p>
             </article>
 
             <!--Compétence 6  -->
 
             <article class="comp">
-                <img src="images/audacity.png" alt="AUDACITY">
-                <p>AUDACITY</p>
+                <img src="images/scripting.jpg" alt="SCRIPTING">
+                <p>SCRIPTING</p>
                 <span class="sepcomp"><!-- Séparateur--></span>
                 <span class="compprogress"><span class="audacity"></span></span>
-                <p>Logiciel d'enregistrement audio, j'ai, par le passé utilisé ce dernier afin de réaliser des montages audios.</p>
+                <p>Notamment en PowerShell.</p>
             </article>
         </section>
         <section class="formations">
@@ -134,8 +134,14 @@
                     <i class="fas fa-pen-fancy" style="font-size: 50px; color:var(--orange); margin-top:20px"></i>
                 </article>
             </section>
-            <section class="cv">
-                <a href="files/cv2021.pdf" class="btncv" target="_blank"><i class="far fa-eye">  Mon curriculum vitæ</i></a>
+            <section class="infoPerso">
+                <article class="cv">
+                    <a href="files/cv2021.pdf" class="btncv" target="_blank"><i class="far fa-eye">  Mon curriculum vitæ</i></a>
+                </article>
+                <article class="cv">
+                    <a href="https://www.linkedin.com/in/jo%C3%A9-feucht-7b9314216/" class="btncv" target="_blank"><i class="fab fa-linkedin"> Ma page LinkedIn</i></a>
+                    </i>
+                </article>
             </section>
     </main>
     <footer>

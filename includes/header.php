@@ -16,6 +16,8 @@
             <li><a href="quisuisje.php" id="a1">Qui suis-je ?</a></li>
             <li><a href="portfolio.php" id="a2">Portfolio</a></li>
             <li><a href="btssio.php" id="a3">BTS SIO</a></li>
+            <li><a href="epreuvee4.php" id="a5">Épreuve E4</a></li>
+            <li><a href="epreuvee5.php" id="a6">Épreuve E5</a></li>
             <li><a href="contact.php" id="a4">Contact</a></li>
         </ul>
     </nav>
