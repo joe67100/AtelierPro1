@@ -208,7 +208,7 @@ h4 {
     text-align: center;
     color: var(--orange);
 }
-.qsjhaut, .btssiodef {
+.qsjhaut, .btssiodef, .qsjhautent {
     width: 600px;
     margin: 30px auto;
     text-align: center;
@@ -221,6 +221,18 @@ h4 {
 .qsjhaut:hover, .btssiodef:hover {
     color: white;
     background-color: #313131;
+    transition: background-color 0.8s, color 0.3s;
+}
+
+.qsjhautent {
+    color: white;
+    background-color: #313131;
+    transition: background-color 0.8s, color 0.3s;
+}
+
+.qsjhautent:hover {
+    color: black;
+    background-color: white;
     transition: background-color 0.8s, color 0.3s;
 }
 
@@ -388,7 +400,7 @@ h4 {
 }
 
 .btncv{
-    border: 1px solid #202020;
+    border: 1px solid #666060;
     font-size: 1.3em;
     font-weight: bold;
     background-color: var(--blanc);
@@ -828,8 +840,8 @@ fieldset {
 
 /* "Qui suis-je (paragraphe tout en haut) + "Clique ici" et flêche page contact + "compétences" template */
 
-@media screen and (max-width:800px){
-    .qsjhaut, .btssiodef{
+@media screen and (max-width:870px){
+    .qsjhaut, .btssiodef, .qsjhautent{
         width: 500px;
     }
     .real {
@@ -878,14 +890,14 @@ fieldset {
    
     
 }
-    @media screen and (min-width:800px){
+    @media screen and (min-width:870px){
         .burger {
             display: none;
         }
     }
 
 @media screen and (max-width:600px){
-    .qsjhaut, .btssiodef{
+    .qsjhaut, .btssiodef, .qsjhautent{
         width: 400px;
     }
     .real {
@@ -902,7 +914,7 @@ fieldset {
     }
 }
 @media screen and (max-width:450px){
-    .qsjhaut, .btssiodef{
+    .qsjhaut, .btssiodef, .qsjhautent{
         width: 300px;
     }
     .real {
@@ -916,7 +928,7 @@ fieldset {
     }
 }
 @media screen and (max-width:300px){
-    .qsjhaut, .btssiodef{
+    .qsjhaut, .btssiodef, .qsjhautent{
         width: 200px;
     }
     .real {

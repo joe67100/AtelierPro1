@@ -56,6 +56,24 @@
                 <p>Étant intéressé par l'informatique depuis quelques années, j'ai choisi cette formation car je souhaitais élaborer un projet professionnel en m'orientant vers des métiers en lien avec ce domaine. Le choix de l'alternance résulte de l'envie d'acquérir à la fois des compétences théoriques en cours et pouvoir les mettre en pratique en entreprise. La possibilité d'avoir une première expérience professionnelle dans l'informatique et ainsi renforcer son employabilité sont des éléments qui m'ont fait choisir cette méthode de formation plutôt qu'une formation plus classique en initiale.</p>
             </article>
         </section>
+
+         <!-- Séparateur :-->
+
+        <span class="sepqsj"></span>
+
+        <h4>Mes projets réalisés en formation : </h4>
+        <p style="text-align:center;">J'ai eu l'occasion de travailler sur différents projets & sujets tout le long de ma formation. Jetez-y un œil  ! </p>
+        <section class="projets">
+            <div class="projet">
+                <a href="projet1.php">
+                    <div class="picture">
+                        <video autoplay muted loop src="images/javascript.mp4" type="video/mp4" alt="Projet1" min-width="400" height="266"></video>
+                    </div>
+                    <span>Projet > bot javascript</span>
+                    <span class="date-projet"><cite>2020 - 2021</cite></span>
+                </a>
+            </div>
+        </section>
     </main>
     <footer>
         <!-- Include du footer afin d'éviter de réécrire le code -->

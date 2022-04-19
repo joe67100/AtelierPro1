@@ -41,37 +41,6 @@
                 <p>Utilisation de PHP afin d'utiliser l'instruction de langage "include" afin d'éviter de réécrire le même code pour plusieurs pages. Instruction utilisée notamment pour le head/header/footer.</p>
             </div>
         </section>
-        <h4>Mes projets : </h4>
-        <p style="text-align:center;">J'ai eu l'occasion de travailler sur différents projets de développement en plus de celui du portfolio que vous êtes en train de consulter : </p>
-        <section class="projets">
-            <div class="projet">
-                <a href="projet1.php">
-                    <div class="picture">
-                        <video autoplay muted loop src="images/javascript.mp4" type="video/mp4" alt="Projet1" min-width="400" height="266"></video>
-                    </div>
-                    <span>Projet > bot javascript</span>
-                    <span class="date-projet"><cite>2020 - 2021</cite></span>
-                </a>
-            </div>
-            <div class="projet">
-                <a href="projet2.php">
-                    <div class="picture">
-                        <img src="images/tableauprojet.jpg" alt="Projet2">
-                    </div>
-                    <span>Projet > tableau</span>
-                    <span class="date-projet"><cite>2020 - 2021</cite></span>
-                </a>
-            </div>
-            <div class="projet">
-            <a href="projet3.php">
-                    <div class="picture">
-                        <video autoplay muted loop src="images/update.mp4" type="video/mp4" alt="Projet3" max-width="400" height="266"></video>
-                    </div>
-                    <span>Projet > mises à jour</span>
-                    <span class="date-projet"><cite>2020</cite></span>
-                </a>
-            </div>
-        </section>
     </main>
     <footer>
         <?php include('includes/footer.php')?>

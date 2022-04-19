@@ -18,6 +18,14 @@
             <p>Je m'appelle Joé, j'ai 21 ans et je suis actuellement étudiant en deuxième année au sein du BTS SIO du CCI CFA de Strasbourg, option SISR. Interéssé par l'informatique depuis plusieurs années, j'ai décidé de me tourner vers une formation dans ce domaine afin d'acquérir de nouvelles compétences.</p>
         </section>
 
+        <section class="qsjhautent">
+            <h4>Mon entreprise</h4>
+            <p>J’ai eu l’opportunité de réaliser cette formation en alternance au sein de 
+                <b>SCHILLER France</b> en tant que technicien informatique. Allant de la gestion et la réalisation de divers 
+                projets en interne au dépannage, l’installation de logiciels médicaux et plus généralement de la 
+                relation client, j’ai pu mettre en pratique mes connaissances théoriques et appréhender
+                professionnellement ce secteur.</p>
+        </section>
         <!-- Séparateur -->
         <span class="sepqsj"></span>
 
@@ -136,11 +144,10 @@
             </section>
             <section class="infoPerso">
                 <article class="cv">
-                    <a href="files/cv2021.pdf" class="btncv" target="_blank"><i class="far fa-eye">  Mon curriculum vitæ</i></a>
+                    <a href="files/cv2021.pdf" class="btncv" target="_blank"><i class="far fa-eye"> Mon curriculum vitæ</i></a>
                 </article>
                 <article class="cv">
                     <a href="https://www.linkedin.com/in/jo%C3%A9-feucht-7b9314216/" class="btncv" target="_blank"><i class="fab fa-linkedin"> Ma page LinkedIn</i></a>
-                    </i>
                 </article>
             </section>
     </main>

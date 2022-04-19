@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <?php include('includes/head.php')?>
-    <title>E5</title>
+    <title>Veille</title>
 </head>
 <body>
     <header>
 		<?php include('includes/header.php')?>
     <style type="text/css">
-          #a6
+          #a7
           {color: var(--orange); text-decoration:underline;}
         </style>
     </header>
@@ -24,19 +24,19 @@
             <div class="projet">
                 <a href="situpro1.php">
                     <div class="picture">
-                        <img src="images/situpro1.jpg" alt="situpro1">
+                        <video autoplay muted loop src="images/javascript.mp4" type="video/mp4" alt="situpro2" min-width="400" height="266"></video>
                     </div>
                     <span>Situation professionnelle 1</span>
-                    <span class="date-projet"><cite>09/21 - 12/21</cite></span>
+                    <span class="date-projet"><cite>Année 2 > Semestre 3</cite></span>
                 </a>
             </div>
             <div class="projet">
                 <a href="situpro2.php">
                     <div class="picture">
-                        <img src="images/situpro2.jpg" alt="situpro2">
+                        <img src="images/tableauprojet.jpg" alt="situpro1">
                     </div>
                     <span>Situation professionnelle 2</span>
-                    <span class="date-projet"><cite>01/22 - 04/22</cite></span>
+                    <span class="date-projet"><cite>Année 2 > Semestre 4</cite></span>
                 </a>
             </div>
 
