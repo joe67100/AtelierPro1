@@ -144,10 +144,10 @@
             </section>
             <section class="infoPerso">
                 <article class="cv">
-                    <a href="files/cv2021.pdf" class="btncv" target="_blank"><i class="far fa-eye"> Mon curriculum vitæ</i></a>
+                    <a href="files/cv2021.pdf" class="btncv" target="_blank"><i class="far fa-eye"></i> Mon curriculum vitæ</a>
                 </article>
                 <article class="cv">
-                    <a href="https://www.linkedin.com/in/jo%C3%A9-feucht-7b9314216/" class="btncv" target="_blank"><i class="fab fa-linkedin"> Ma page LinkedIn</i></a>
+                    <a href="https://www.linkedin.com/in/jo%C3%A9-feucht-7b9314216/" class="btncv" target="_blank"><i class="fab fa-linkedin"></i> Ma page LinkedIn</a>
                 </article>
             </section>
     </main>

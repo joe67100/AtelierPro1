@@ -15,10 +15,13 @@
     <main>
         <section>
             <h4>Épreuve E4 : Support et mise à disposition de services informatiques </h4>
-            <p style="text-align:center;">lorem</p>
+            <p style="text-align:center;">A TERMINER</p>
         </section>
         <!-- Séparateur -->
         <span class="sepqsj"></span>
+        <article class="cv">
+                    <a href="files/tableau_synthese.pdf" class="btncv" target="_blank"><i class="fas fa-file-download"></i> Tableau de synthèse</a>
+        </article>
         <section class="projets">
             <div class="projet">
                     <a href="projet2.php">

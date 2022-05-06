@@ -396,6 +396,7 @@ h4 {
     margin: 50px 0px 50px 0px;
     text-align: center;
     vertical-align: middle;
+    font-family: 'dosis', 'cali', sans-serif;
 }
 
 .btncv{
@@ -642,6 +643,18 @@ fieldset {
     margin: auto;
 }
 
+/* Veille */
+
+.iframe { 
+    width: 60%;
+    min-width: 1%;
+    height: 800px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    padding: none; 
+    margin: 15px auto; 
+    display: block;  
+}
 
 /* Contact */
 

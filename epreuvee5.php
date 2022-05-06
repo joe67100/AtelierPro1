@@ -15,7 +15,7 @@
     <main>
     <section>
             <h4>Épreuve E5 : Administration des systèmes et des réseaux </h4>
-            <p style="text-align:center;">lorem</p>
+            <p style="text-align:center;"></p>
         </section>
         <!-- Séparateur -->
         <span class="sepqsj"></span>

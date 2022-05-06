@@ -10,7 +10,7 @@
     </header>
     <main>
         <section class="contener">
-            <h3><a href="portfolio.php"><i class="fas fa-arrow-circle-up second" style="font-size:30px; transform: rotate(270deg); margin-right:10px;"></i></a>Projet > tableau</h3>
+            <h3><a href="epreuvee4.php"><i class="fas fa-arrow-circle-up second" style="font-size:30px; transform: rotate(270deg); margin-right:10px;"></i></a>Projet > tableau</h3>
             <article>
                 <h4>Introduction</h4>
                 <p>Ce projet professionnel avait pour but la création d'un tableau d'affichage avec différentes informations (client, numéro de série d'appareils) afin de faciliter le travail de plusieurs salariés en interne. Ce tableau exploite deux bases de données MariaDB. Ce projet m'a permis d'acquérir des notions de PHP et SQL. </p>

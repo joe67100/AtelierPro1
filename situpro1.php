@@ -27,7 +27,13 @@
                 <h4>Ressources</h4>
                 <legend>Vous pouvez accéder aux différentes ressources en cliquant sur les liens ci-dessous</legend>
                 <article class="cv">
-                    <a href="files/adef.pdf" class="btncv" target="_blank"><i class="fa-solid fa-cloud-arrow-down">Situation</i></a>
+                    <a href="https://1drv.ms/b/s!AjQHqD-JVcvS015f_DCRGFDf0U5w" class="btncv" target="_blank"><i class="fas fa-sticky-note"></i> Situation</a>
+                </article>
+                <article class="cv">
+                    <a href="https://1drv.ms/b/s!AjQHqD-JVcvS0wVf_DCRGFDf0U5w" class="btncv" target="_blank"><i class="fas fa-book"></i> Documentation</a>
+                </article>
+                <article class="cv">
+                    <a href="https://1drv.ms/b/s!AjQHqD-JVcvS0wdf_DCRGFDf0U5w" class="btncv" target="_blank"><i class="fas fa-calendar-alt"></i> GANTT</a>
                 </article>
             </article>
         </section>
