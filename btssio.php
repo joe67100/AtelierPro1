@@ -23,7 +23,7 @@
             </article>
         </section>
 
-        <!-- Séparateur :-->
+        <!-- Séparateur :tt-->
 
         <span class="sepqsj"></span>
 
